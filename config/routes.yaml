@@ -1,0 +1,7 @@
+api:
+    resource: '../src/Controller/Rest/'
+    type: rest
+    defaults: {'_format': 'json'}
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

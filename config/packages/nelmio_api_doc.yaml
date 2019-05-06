@@ -1,0 +1,9 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: BDN API
+            description: The Parabot BDN API documentation
+            version: V4
+    areas:
+        path_patterns:
+            - ^/api(?!/doc$)
